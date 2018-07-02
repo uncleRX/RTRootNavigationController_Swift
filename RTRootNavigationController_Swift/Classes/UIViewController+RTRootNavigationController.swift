@@ -39,7 +39,7 @@ extension UIViewController: RTNavigationItemCustomizable{
         return vc as? RTRootNavigationController
     }
     
-    open func rt_navigationBarClass() -> Swift.AnyClass? {
+  @objc open func rt_navigationBarClass() -> Swift.AnyClass? {
         return nil
     }
     
